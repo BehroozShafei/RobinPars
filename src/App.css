@@ -1,0 +1,94 @@
+.container-login100 {
+  background-image: url('./assets/images/batmanvsuperman_ben-wallpaper-1366x768.jpg');
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+@font-face {
+  font-family: 'IRANSansWeb';
+  src: local('IRANSansWeb'), url(./assets/fonts/IRANSansWeb.ttf) format('truetype');
+}
+body{
+  font-family: IRANSansWeb;}
+ a {
+   font-family: IRANSansWeb;
+ } 
+ h3 {
+   font-family: IRANSansWeb;
+
+ } 
+ p {
+  font-family: IRANSansWeb;
+
+}
+.container-login100::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(93, 84, 240, 0.5);
+  background: -webkit-linear-gradient(left, rgba(0, 168, 255, 0.5), rgba(185, 0, 255, 0.5));
+  background: -o-linear-gradient(left, rgba(0, 168, 255, 0.5), rgba(185, 0, 255, 0.5));
+  background: -moz-linear-gradient(left, rgba(0, 168, 255, 0.5), rgba(185, 0, 255, 0.5));
+  background: linear-gradient(left, rgba(0, 168, 255, 0.5), rgba(185, 0, 255, 0.5));
+  pointer-events: none;
+}
+
+.wrap-login100 {
+  width: 390px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  min-height: 390px;
+  background-color: transparent;
+  background: transparent;
+}
+
+.welcomeNote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  text-align: center;
+}
+
+.welcomeNote :nth-child(2) {
+  margin: 5px;
+  padding: 1px;
+
+}
+
+.welcomeNote :nth-child(1) {
+  margin: 5px;
+  margin-bottom: 0;
+  padding: 5px;
+
+}
+
+.login100-form {
+  width: 100%;
+  min-height: 390px;
+}
+
+#root {
+  direction: rtl;
+}
