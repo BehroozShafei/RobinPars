@@ -31,6 +31,7 @@ import ProfilePage from "./views/examples/ProfilePage.js";
 import RegisterPage from "./views/examples/RegisterPage.js";
 import App from "./App.js";
 import UserCards from "./components/custom/UserCard.jsx";
+import Test from "./views/Test/Index";
 // others
 
 ReactDOM.render(
@@ -61,6 +62,10 @@ ReactDOM.render(
       <Route
         path="/UserData"
         render={(props) => <UserCards {...props} />}
+      />
+      <Route
+        path="/Test"
+        render={(props) => <Test {...props} />}
       />
       <Redirect to="/app" />
     </Switch>
