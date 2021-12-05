@@ -8,8 +8,9 @@ export default class Test extends Component {
 
         }
     }
+    // RobinPars/tree/main/src/assets/images
     componentDidMount() {
-        axios.get('https://api.github.com/repos/BehroozShafei/RobinPars/contents/')
+        axios.get('https://api.github.com/repos/BehroozShafei/RobinPars/contents/src/assets/images/')
             .then(function (response) {
                 debugger
                 console.log(response);
